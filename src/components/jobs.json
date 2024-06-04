@@ -1,0 +1,28 @@
+{
+  "list": {
+    "job1": {
+      "name": "warehouse worker",
+      "date_of_start": "November 2021",
+      "date_of_end": "May 2023",
+      "company": "Decathlon"
+    },
+    "job2": {
+      "name": "steward at the match",
+      "date_of_start": "October 2020",
+      "date_of_end": "August 2021",
+      "company": "Jagiellonia Białystok"
+    },
+    "job3": {
+      "name": "call center",
+      "date_of_start": "Jule 2021",
+      "date_of_end": "August 2021",
+      "company": "Delta Contact"
+    },
+    "job4": {
+      "name": "Shop Assistant",
+      "date_of_start": "June 2020",
+      "date_of_end": "August 2020",
+      "company": "Piekarnia Okruszek"
+    }
+  }
+}
