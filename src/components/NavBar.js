@@ -36,7 +36,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="https://dyzioq.github.io/cv_website/">
           <img src={profilePicture} alt="Logo" className="profile-picture" />
         </Navbar.Brand>
 
