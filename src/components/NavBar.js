@@ -36,7 +36,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="https://dyzioq.github.io/cv_website/">
+        <Navbar.Brand href="/">
           <img src={profilePicture} alt="Logo" className="profile-picture" />
         </Navbar.Brand>
 
@@ -53,7 +53,7 @@ export const NavBar = () => {
               }
               onClick={() => {
                 onUpdateActiveLink("home");
-                navigate("https://dyzioq.github.io/cv_website/");
+                navigate("/");
               }}
             >
               Home
@@ -65,7 +65,7 @@ export const NavBar = () => {
               }
               onClick={() => {
                 onUpdateActiveLink("skills");
-                navigate("https://dyzioq.github.io/cv_website/skills");
+                navigate("/skills");
               }}
             >
               Skills
@@ -79,7 +79,7 @@ export const NavBar = () => {
               }
               onClick={() => {
                 onUpdateActiveLink("experience");
-                navigate("https://dyzioq.github.io/cv_website/experience");
+                navigate("/experience");
               }}
             >
               Experience

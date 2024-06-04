@@ -11,18 +11,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route
-            path="https://dyzioq.github.io/cv_website/"
-            element={<HomePage />}
-          />
-          <Route
-            path="https://dyzioq.github.io/cv_website/skills"
-            element={<SkillsPage />}
-          />
-          <Route
-            path="https://dyzioq.github.io/cv_website/experience"
-            element={<ExperiencePage />}
-          />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
         </Routes>
       </BrowserRouter>
     </div>
