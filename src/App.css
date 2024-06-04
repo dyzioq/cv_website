@@ -19,11 +19,13 @@
 th,
 td {
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #fff !important;
 }
 
 .experience-table {
-  /* border-collapse: collapse; */
   background-color: rgba(255, 255, 255, 0) !important;
+  color: #fff !important;
   margin: auto;
   margin-top: 15rem;
   width: 80%;
@@ -265,6 +267,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+
+.banner .icon {
+  height: 48px;
+  width: 48px;
+  margin: 1.5rem 1rem 1.5rem 0;
+}
+
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;

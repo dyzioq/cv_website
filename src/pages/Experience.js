@@ -7,6 +7,7 @@ export default function ExperiencePage() {
   return (
     <>
       <NavBar />
+
       <WorkTable />
     </>
   );
