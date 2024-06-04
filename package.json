@@ -1,7 +1,7 @@
 {
   "name": "cv_website",
   "version": "0.1.0",
-  "homepage": "https://dyzioq.github.io/cv_website",
+  "homepage": "https://dyzioq.github.io/cv_website/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
